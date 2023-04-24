@@ -146,10 +146,7 @@ text-decoration: none;
   justify-content: center;
 }
 
-.right-head img {
-  height: 100%;
-  float: right;
-}
+
 
 .scroll-btn {
   position: fixed;
@@ -216,7 +213,7 @@ height: 100px;
   flex-basis: 50%;
   background-image: url(/images/pngwing.com\ \(6\).png);
   background-repeat: no-repeat;
-  height: 425px;
+  height: 500px;
   background-position: center;
   border-radius: 20px;
   position: relative;
@@ -273,7 +270,7 @@ transition: 0.51s ease-in-out;
 #container-electronic,
 #container-pc {
   width: 100%;
-  height: 100%;
+  height: 500px;
   padding: 1rem;
   position: relative;
   background-color: aliceblue;
