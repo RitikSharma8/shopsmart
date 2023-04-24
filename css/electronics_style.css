@@ -672,10 +672,11 @@ svg{
 
   }
 
-  .right-head img {
-    max-width: 100%;
-    mheight: 100%;
+ .right-head-img {
+    width: 100%;
+    height: 80%;
   }
+
 
 
   #nav-active {
