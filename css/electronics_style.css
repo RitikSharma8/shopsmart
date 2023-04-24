@@ -714,3 +714,19 @@ svg{
   }
 
 }
+@media (min-width: 768px) and (max-width: 991px) {
+#container-pc{
+  height: 700px;
+}
+.half-right{
+  height: 700px;
+}
+.right-head img{
+  height: 100%;
+  width: 100%;
+  float: right;
+}
+body{
+  background-color: red;
+}
+}
