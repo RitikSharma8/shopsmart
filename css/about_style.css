@@ -1,0 +1,115 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: Poppins;
+  padding: none;
+}
+body{
+  font-family: poppins;
+  background-color:lavender;
+  padding-top:5rem;
+  padding-bottom: 5rem;
+
+}
+html{
+scroll-behavior: smooth;
+zoom: 80%;
+}
+header{
+  height: 5rem;
+  background-color: midnightblue;
+  position: absolute;
+  top: 0;
+  width:100%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+header h1{
+  color: white;
+}
+footer{
+  background-color: midnightblue;
+  width: 100%;
+  position: absolute;
+  bottom: 0%;
+  height: 5rem;
+  left: 0%;
+  position: fixed;
+  z-index: 9;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-copy{
+  color: white;
+}
+section{
+  position: absolute;
+  top: 10rem; /* Height of the fixed navbar */
+  bottom: 5rem; /* Height of the fixed footer */
+  left: 0;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  display: flex;
+  justify-content: center;
+  text-align: left;
+  align-items: center;
+  flex-direction: column;
+  right: 0;
+  max-width: 800px; /* Change this to the desired width */
+  margin: 0 auto; /* Center the div horizontally */
+  background-color: white; /* Change this to the desired color */
+  padding: 20px; /* Change this to the desired padding */
+
+}
+section h1{
+  font-weight: bolder;
+}
+section p{
+  font-weight: 500;
+  font-size: 1.3rem;
+}
+
+#mini-nav-outer{
+  background-color: #454593;
+max-width: 800px;
+margin:0 auto;
+border-top-right-radius: 20px;
+border-top-left-radius: 20px;
+}
+.mini-nav{
+  max-width:800px ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5rem;
+
+
+}
+.mini-nav-btn{
+  border: none;
+  margin-right: 20px;
+  padding: 6px;
+  width: 7rem;
+  font-weight: bolder;
+  border-radius: 20px;
+  font-size: 1.2rem;
+  background-color: #ff7200;
+  color: white;
+
+
+}
+.mini-nav-btn a{
+  text-decoration: none;
+  color: white;
+}
+.act a{
+
+  color:  #ff7200;
+}
+.act{
+  background-color:white ;
+}
