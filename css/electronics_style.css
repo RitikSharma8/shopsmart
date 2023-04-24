@@ -722,8 +722,7 @@ svg{
   height: 700px;
 }
 .right-head img{
-  height: 100%;
-  width: 100%;
+background-size:50%;
   background-position:center;
 }
 
