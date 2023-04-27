@@ -349,7 +349,6 @@ p {
   color: white;
   border: none;
   border-radius: 30px;
-  width: 100px;
   padding: 1rem;
   transition: 0.51s ease-in-out;
 }
@@ -829,13 +828,25 @@ svg {
 
 /*  */
 @media (min-width:800px) and (max-width:1000px) {
-  .nav-head{
+  .head-item h5{
     font-size: 10px;
   }
   .nav-head-items img{
     height: 70px;
   }
+
+  .half-right-label{
+    width: 40%;
+  }
+
+  .btn-hov-half{
+    width: 40%;
+  }
+  .grid-item{
+    font-size: 20px;
+  }
 }
+
 
 
 /* Mob Responsiveness */
