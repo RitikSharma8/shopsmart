@@ -827,7 +827,7 @@ svg {
 
 
 /*  */
-@media (min-width:800px) and (max-width:1000px) {
+@media (min-width:800px) and (max-width:1300px) {
   .head-item h5{
     font-size: 10px;
   }
