@@ -855,17 +855,9 @@ padding-top: 10px;
 
 
 
-  .head-item-logo p{
-    font-size: 12px;
-    color: #ff7308;
-    font-weight: bolder;
-      }
-      .head-item-logo i{
-        color: black;
-      }
-      .head-item{
-        margin-right: 8px;
-      }
+      .head-item-logo {
+        display: none;
+      } 
       .head-item h5{
         font-size: 8px;
       }
