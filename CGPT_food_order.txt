@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Food Ordering Website</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header>
+		<h1>Food Ordering Website</h1>
+		<div id="cart">
+			<span id="cart-count">0</span>
+			<a href="#" id="cart-btn">Cart</a>
+			<span id="total-price">$0.00</span>
+		</div>
+	</header>
+
+	<main>
+		<div class="food-item">
+			<img src="https://via.placeholder.com/150x150" alt="Food Item">
+			<h2 class="item-name">Pizza</h2>
+			<p class="item-description">A delicious pizza pie!</p>
+			<p class="item-price">$12.99</p>
+			<button class="add-to-cart-btn" data-price="12.99">Add to Cart</button>
+		</div>
+
+		<div class="food-item">
+			<img src="https://via.placeholder.com/150x150" alt="Food Item">
+			<h2 class="item-name">Burger</h2>
+			<p class="item-description">A juicy burger with all the fixings!</p>
+			<p class="item-price">$9.99</p>
+			<button class="add-to-cart-btn" data-price="9.99">Add to Cart</button>
+		</div>
+
+		<div class="food-item">
+			<img src="https://via.placeholder.com/150x150" alt="Food Item">
+			<h2 class="item-name">Fries</h2>
+			<p class="item-description">A crispy side of french fries!</p>
+			<p class="item-price">$3.99</p>
+			<button class="add-to-cart-btn" data-price="3.99">Add to Cart</button>
+		</div>
+	</main>
+
+	<script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+const foodItems = document.querySelectorAll('.food-item');
+const addToCartButtons = document.querySelectorAll('.add-to-cart-btn');
+const cartCount = document.querySelector('#cart-count');
+const totalPrice = document.querySelector('#total-price');
+
+let cartItems = [];
+
+addToCartButtons.forEach((button, index) => {
+    const itemName = foodItems[index].querySelector('.item-name').textContent;
+    const itemPrice = parseFloat(button.dataset.price);
+    
+    button.addEventListener('click', () => {
+        let itemAlreadyInCart = false;
+
+        cartItems.forEach(cartItem => {
+            if (cartItem.name === itemName) {
+                cartItem.quantity++;
+                itemAlreadyInCart = true;
+            }
+        });
+
+        if (!itemAlreadyInCart) {
+            cartItems.push({ name: itemName, price: itemPrice, quantity: 1 });
+        }
+
+        updateCart();
+    });
+});
+
+function updateCart() {
+    let count = 0;
+    let price = 0;
+
+    cartItems.forEach(item => {
+        count += item.quantity;
+        price += item.price * item.quantity;
+    });
+
+    cartCount.textContent = count;
+    totalPrice.textContent = '$' + price.toFixed(2);
+}
