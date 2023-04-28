@@ -685,7 +685,7 @@ svg{
 
   /* Tablet */
 
-  @media (min-width:850px) and (max-width:1300px) {
+  @(min-width:850px) and (max-width:1300px) {
 
   .right-head{
     align-items: center;
@@ -702,14 +702,9 @@ width: 300px;}
 /* Mob Responsiveness */
 @media (max-width:700px) {
 
-  .head-item-logo p{
-    font-size: 12px;
-    color: #ff7308;
-    font-weight: bolder;
-      }
-      .head-item-logo i{
-        color: black;
-      }
+      .head-item-logo {
+        display: none;
+      } 
       .head-item{
         margin-right: 8px;
       }
