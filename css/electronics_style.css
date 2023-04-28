@@ -683,9 +683,45 @@ svg{
     
   }
 
+  /* Tablet */
+
+  @media (min-width:850px) and (max-width:1300px) {
+
+  .right-head{
+    align-items: center;
+  }
+.right-head-img{
+height: 300px;
+width: 300px;}
+
+
+
+
+  }
+
 /* Mob Responsiveness */
 @media (max-width:700px) {
 
+  .head-item-logo p{
+    font-size: 12px;
+    color: #ff7308;
+    font-weight: bolder;
+      }
+      .head-item-logo i{
+        color: black;
+      }
+      .head-item{
+        margin-right: 8px;
+      }
+      .head-item h5{
+        font-size: 8px;
+      }
+      
+      .nav-head {
+        height: 140px;
+        background-color: rgb(255, 255, 255);
+        width: 100%;
+      }
 
   .nav-head {
     height: 140px;
@@ -708,29 +744,13 @@ svg{
     height: 100%;
   }
   
-  .head-item{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-  }
-  
-  .head-item h5{
-    font-weight: bolder;
-    margin-top: 1rem;
-    font-size: 10px;
-  }
+
   
   .head-item img {
     height: 40px;
     text-align: center;
   }
   
-
-  .nav-link i {
-    display: none;
-  }
-
   .head-main {
 
     display: flex;

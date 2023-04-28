@@ -826,8 +826,16 @@ svg {
 } 
 
 
-/*  */
-@media (min-width:800px) and (max-width:1300px) {
+/* Tablet  */
+@media (min-width:850px) and (max-width:1300px) {
+
+.table{
+  font-size:1.2rem;
+}
+  .grid-item-des p{
+    font-size: 10px;
+  }
+  
   .head-item h5{
     font-size: 10px;
   }
@@ -852,7 +860,27 @@ svg {
 /* Mob Responsiveness */
 @media (max-width:700px) {
 
-  
+  .head-main {
+    display: flex;
+    height: auto;
+    background-color: aliceblue;
+    flex-direction: column-reverse;
+    padding: 20px 0px 20px 0px;
+  }
+  .head-item-logo p{
+font-size: 12px;
+color: #ff7308;
+font-weight: bolder;
+  }
+  .head-item-logo i{
+    color: black;
+  }
+  .head-item{
+    margin-right: 8px;
+  }
+  .head-item h5{
+    font-size: 8px;
+  }
   
   .nav-head {
     height: 140px;
@@ -868,25 +896,7 @@ svg {
     color: black;
     text-decoration: none;
   }
-  .nav-head-items {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    height: 100%;
-  }
-  
-  .head-item{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-  }
-  
-  .head-item h5{
-    font-weight: bolder;
-    margin-top: 1rem;
-    font-size: 10px;
-  }
+
   
   .head-item img {
     height: 40px;
@@ -903,14 +913,7 @@ svg {
     font-size: 10px;
   }
 
-  .head-main {
 
-    display: flex;
-    height: 100%;
-    padding: 10px;
-    flex-direction: column-reverse;
-
-  }
 
   .left-head {
 
@@ -923,6 +926,7 @@ svg {
     width: 100%;
     display: flex;
     flex-direction: row;
+    align-items: center;
 
   }
 
