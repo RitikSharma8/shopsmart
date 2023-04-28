@@ -827,7 +827,7 @@ svg {
 
 
 /* Tablet  */
-@media (min-width:850px) and (max-width:1300px) {
+@(min-width:850px) and (max-width:1300px) {
 
 .table{
   font-size:1.2rem;
@@ -867,14 +867,9 @@ svg {
     flex-direction: column-reverse;
     padding: 20px 0px 20px 0px;
   }
-  .head-item-logo p{
-font-size: 12px;
-color: #ff7308;
-font-weight: bolder;
-  }
-  .head-item-logo i{
-    color: black;
-  }
+      .head-item-logo {
+        display: none;
+      } 
   .head-item{
     margin-right: 8px;
   }
