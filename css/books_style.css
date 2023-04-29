@@ -917,24 +917,31 @@ height: 500px;
   .wrap-importance{
     min-height: 100%;
   }
-    .left-importance::before {
+  .left-importance{
+    overflow: hidden;
+  }
+  .left-importance::before {
     position: absolute;
     height: fit-content;
     width: 270px;
-    overflow: hidden;
+
     content: "";
     top: -10%;
     right: -10%;
     background-image: url(/images/arrow.png);
 }
-  .left-head button{
+
+.left-head button{
   font-size: 20px;
   display: inline-block;
   width:fit-content;
-}.imp-box-1 {
+}.imp-box-1 h2{
+  font-size: 20px;
 max-height: 100%;
   /* border-radius: 10px; */
-
-
+}
+.imp-box-1 p{
+  font-size: 12px;
+  text-align: justify;
 }
   /* Your Styles... */ }
