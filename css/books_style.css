@@ -912,7 +912,6 @@ footer {
 /* TABLETS */
 
 @media only screen and (min-width: 810px) and (max-width: 1080px)  {
-  
   .right-head-img img{
 height: 500px;
   }
@@ -921,9 +920,10 @@ height: 500px;
     min-height: 100%;
   }
   .left-importance{
-    overflow: hidden;
-        height: fit-content;
-
+    height: fit-content;
+  }
+  .left-importance p{
+font-size: 12px;
   }
   .left-importance::before {
     position: absolute;
@@ -945,11 +945,14 @@ height: 500px;
 max-height: 100%;
   /* border-radius: 10px; */
 }
-    .left-importance p{
-font-size: 12px;
-  }
 .imp-box-1 p{
   font-size: 12px;
   text-align: justify;
+}
+
+.head-main-section{
+  height: auto;
+  background-image: linear-gradient(25deg, #0094e9 50%, #80D0C7 100%);
+
 }
   /* Your Styles... */ }
