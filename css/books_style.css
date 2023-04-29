@@ -919,7 +919,7 @@ height: 500px;
   }
     .left-importance::before {
     position: absolute;
-    height: 280px;
+    height: fit-content;
     width: 270px;
     overflow: hidden;
     content: "";
