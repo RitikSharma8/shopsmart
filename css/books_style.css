@@ -911,6 +911,9 @@ footer {
 
 /* TABLETS */
 @media only screen and (max-width: 2048px) and (max-height: 1326px) {
+  body{
+  background-color: red;
+}
   .right-head-img img{
 height: 500px;
   }
