@@ -917,5 +917,14 @@ height: 500px;
   .wrap-importance{
     min-height: 100%;
   }
-  
+    .left-importance::before {
+    position: absolute;
+    height: 280px;
+    width: 270px;
+    overflow: hidden;
+    content: "";
+    top: -10%;
+    right: -10%;
+    background-image: url(/images/arrow.png);
+}
   /* Your Styles... */ }
