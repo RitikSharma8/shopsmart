@@ -956,9 +956,12 @@ max-height: 100%;
 
 }
   
-  
+  .imp-box-1{
+    height:fit-content;
+  }
   .imp-box-1 i{
-    font-size:10px;}
+    font-size:18px;}
+  
 #right-imp-cd , #right-imp-cd-2{
   height: 80%;
   width: 45%;}
