@@ -420,7 +420,7 @@ h1 {
 .left-importance {
   display: flex;
   flex-basis: 50%;
-  height:auto;
+  min-height:900px;
   width: 100%;
   padding: 30px;
   background-color: rgb(255, 255, 255);
