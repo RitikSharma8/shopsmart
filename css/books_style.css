@@ -904,3 +904,18 @@ footer {
 .footer-copy {
   margin-top: 1rem;
 }
+
+
+/* TABLETS */
+
+@media only screen and (min-width: 810px) and (max-width: 1080px)  {
+  
+  .right-head-img img{
+height: 500px;
+  }
+
+  .wrap-importance{
+    min-height: 100%;
+  }
+  
+  /* Your Styles... */ }
