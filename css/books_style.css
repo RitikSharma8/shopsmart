@@ -957,8 +957,9 @@ max-height: 100%;
 }
   
   
-  
-#right-imp-cd , #right-imp-cd-1{
+  .imp-box-1 i{
+    font-size:10px;}
+#right-imp-cd , #right-imp-cd-2{
   height: 80%;
   width: 45%;}
  
