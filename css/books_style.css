@@ -940,6 +940,9 @@ height: 500px;
 max-height: 100%;
   /* border-radius: 10px; */
 }
+    .left-importance p{
+font-size: 12px;
+  }
 .imp-box-1 p{
   font-size: 12px;
   text-align: justify;
