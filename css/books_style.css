@@ -919,6 +919,8 @@ height: 500px;
   }
   .left-importance{
     overflow: hidden;
+        height: fit-content;
+
   }
   .left-importance::before {
     position: absolute;
