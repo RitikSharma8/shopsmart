@@ -369,7 +369,7 @@ html {
 
 @media (min-width: 810px) and (max-width: 1080px) {
 .grid-item-1 , .grid-item-2{
-    height: fit-content;
+    height: 300px;
 }
 .wrap-importance{
     display: flex;
