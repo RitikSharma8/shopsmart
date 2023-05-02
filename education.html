@@ -2,652 +2,1133 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/css/bootstrap.min.css"
-        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/js/bootstrap.min.js"
-        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
-        crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="./css/education.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/css/bootstrap.min.css"
+    integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./css/education.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dosis&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/107f3131f5.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Dosis&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/107f3131f5.js" crossorigin="anonymous"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-
-    <title>Document</title>
+  <title>Document</title>
 </head>
 
 <body>
 
 
-    <nav class="navbar navbar-expand-lg">
+  <nav class="navbar navbar-expand-lg">
 
-        <a class="navbar-brand" href="#">Shop<span style="color:#ff7200;font-weight: bolder;">Smart</span></a>
-        <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse " id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-                <li id="nav-active" class="nav-item active">
-                    <a class="nav-link" href="#">Books<i style="background-color: #ff7200;color: white;"
-                            class="fa-solid fa-book"></i><span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Shop<i
-                            class="fa fa-solid fa-shopping-cart"></i></a>
-                    <div id="drp-dwn-cust" class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="./index.html">Home</a>
-                        <a class="dropdown-item" href="./electronics.html">Electronics</a>
-                        <a class="dropdown-item" href="./food-groceries.html">Food / Groceries</a>
-                        <a class="dropdown-item" href="#">Household</a>
-                        <a class="dropdown-item" href="./books.html">Books</a>
+    <a class="navbar-brand" href="#">Shop<span style="color:#ff7200;font-weight: bolder;">Smart</span></a>
+    <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse " id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li id="nav-active" class="nav-item active">
+          <a class="nav-link" href="#">Books<i style="background-color: #ff7200;color: white;"
+              class="fa-solid fa-book"></i><span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">Shop<i class="fa fa-solid fa-shopping-cart"></i></a>
+          <div id="drp-dwn-cust" class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="./index.html">Home</a>
+            <a class="dropdown-item" href="./electronics.html">Electronics</a>
+            <a class="dropdown-item" href="./food-groceries.html">Food / Groceries</a>
+            <a class="dropdown-item" href="#">Household</a>
+            <a class="dropdown-item" href="./books.html">Books</a>
 
-                    </div>
-                </li>
+          </div>
+        </li>
 
-                <li class="nav-item">
-                    <a class="nav-link" href="./best_offers.html">Best Offers<i class="fa-solid fa-tag"></i></a>
-                </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./best_offers.html">Best Offers<i class="fa-solid fa-tag"></i></a>
+        </li>
 
-                <li class="nav-item">
-                    <a class="nav-link" href="./about.html">About<i class="fa-solid fa-address-book"></i></a>
-                </li>
-
-
-            </ul>
-        </div>
-
-    </nav>
+        <li class="nav-item">
+          <a class="nav-link" href="./about.html">About<i class="fa-solid fa-address-book"></i></a>
+        </li>
 
 
+      </ul>
+    </div>
 
-    <div class="nav-head">
-
-        <div class="nav-head-items">
-
-
-            <div class="head-item-logo">
-                <a href="#">
-                    <p>ShopSmart<i class="fa fa-shopping-cart"></i></p>
-                </a>
-
-            </div>
+  </nav>
 
 
 
-            <div class="head-item 1">
-                <img src="./images/iphone.png" alt="" srcset="">
-                <a href="./electronics.html">
-                    <h5>Electronics</h5>
-                </a>
-            </div>
+  <div class="nav-head">
 
-            <div class="head-item 2">
-                <img src="./images/household.png" alt="" srcset="">
-                <a href="#">
-                    <h5>Household</h5>
-                </a>
-
-            </div>
+    <div class="nav-head-items">
 
 
-            <div class="head-item 3">
-                <img src="./images/fashion.png" alt="" srcset="">
-                <a href="">
-                    <h5>Fashion / Clothing</h5>
-                </a>
+      <div class="head-item-logo">
+        <a href="#">
+          <p>ShopSmart<i class="fa fa-shopping-cart"></i></p>
+        </a>
 
-            </div>
-
-
-            <div class="head-item 4">
-                <img src="./images/groceries.png" alt="" srcset="">
-                <a href="#">
-                    <h5>Food / Groceries</h5>
-                </a>
-
-            </div>
+      </div>
 
 
-            <div class="head-item 4">
-                <img src="./images/books.png" alt="" srcset="">
-                <a href="#">
-                    <h5>Books</h5>
-                </a>
 
-            </div>
+      <div class="head-item 1">
+        <img src="./images/iphone.png" alt="" srcset="">
+        <a href="./electronics.html">
+          <h5>Electronics</h5>
+        </a>
+      </div>
+
+      <div class="head-item 2">
+        <img src="./images/household.png" alt="" srcset="">
+        <a href="#">
+          <h5>Household</h5>
+        </a>
+
+      </div>
 
 
-        </div>
+      <div class="head-item 3">
+        <img src="./images/fashion.png" alt="" srcset="">
+        <a href="">
+          <h5>Fashion / Clothing</h5>
+        </a>
+
+      </div>
+
+
+      <div class="head-item 4">
+        <img src="./images/groceries.png" alt="" srcset="">
+        <a href="#">
+          <h5>Food / Groceries</h5>
+        </a>
+
+      </div>
+
+
+      <div class="head-item 4">
+        <img src="./images/books.png" alt="" srcset="">
+        <a href="#">
+          <h5>Books</h5>
+        </a>
+
+      </div>
 
 
     </div>
 
-    <section class="front-main-head">
 
-        <div class="head-main">
+  </div>
 
-            <div class="left-head">
+  <section class="front-main-head">
 
-                <p>Book Heaven:<br>Discover Your Next Great Read</p>
-                <button><a href="#container-electronic">Check Out</a></button>
-      
-            </div>
+    <div class="head-main">
+
+      <div class="left-head">
+
+        <p>Book Heaven:<br>Discover Your Next Great Read</p>
+        <button><a href="#container-electronic">Check Out</a></button>
+
+      </div>
 
 
-            <div class="right-head">
-                <img src="./images/digital-marketing-specialist-giving-a-presentation.png" alt="" srcset="">
-            </div>
+      <div class="right-head">
+        <img src="./images/digital-marketing-specialist-giving-a-presentation.png" alt="" srcset="">
+      </div>
+
+    </div>
+
+    <div class="sub-head">
+
+
+      <div class="sub-head-left">
+        <p>Why to read books</p>
+        <p id="sub-head-des">Reading books in your twenties can help you gain new perspectives and broaden your
+          understanding of the
+          world.
+          It can enhance your critical thinking skills and improve your ability to communicate effectively.
+          Reading books in your twenties can inspire you to pursue new interests and passions.
+          It can also provide a healthy escape from the stresses of daily life and improve your mental health.</p>
+
+        <div class="head-box-container">
+          <div class="sub-head-box-1">
+            <img src="./images/education.png" alt="" srcset="">
+          </div>
+
+          <div class="sub-head-box-2">
+            <h4>Books <i class="fa-solid fa-tag"></i></h4>
+            <p id="box-p-2">Get lost in a world of adventure and intrigue with our collection of best-selling books.
+              Discover the latest titles that everyone is talking about and see why readers can't put them down.
+              Expand your knowledge and learn new skills with our diverse selection of non-fiction books.Get lost in a
+              world of adventure and intrigue with our collection of best-selling books.
+              Discover the latest titles that everyone is talking about and see why readers can't put them down.
+              Expand your knowledge and learn new skills with our diverse selection of non-fiction books.</p>
+          </div>
+
 
         </div>
 
-        <div class="sub-head">
+      </div>
 
 
-            <div class="sub-head-left">
-            <p>Why to read books</p>
-            <p id="sub-head-des">Reading books in your twenties can help you gain new perspectives and broaden your understanding of the
-                world.
-                It can enhance your critical thinking skills and improve your ability to communicate effectively.
-                Reading books in your twenties can inspire you to pursue new interests and passions.
-                It can also provide a healthy escape from the stresses of daily life and improve your mental health.</p>
+      <div class="sub-head-right">
 
-                <div class="head-box-container">
-                <div class="sub-head-box-1">
-                    <img src="./images/education.png" alt="" srcset="">
-                </div>
-
-                <div class="sub-head-box-2">
-                    <h4>Books <i class="fa-solid fa-tag"></i></h4>
-                    <p id="box-p-2">Get lost in a world of adventure and intrigue with our collection of best-selling books.
-                        Discover the latest titles that everyone is talking about and see why readers can't put them down.
-                        Expand your knowledge and learn new skills with our diverse selection of non-fiction books.Get lost in a world of adventure and intrigue with our collection of best-selling books.
-                        Discover the latest titles that everyone is talking about and see why readers can't put them down.
-                        Expand your knowledge and learn new skills with our diverse selection of non-fiction books.</p>
-                </div>
+        <div id="card-right-1">
+          <img src="./images/godfather.jpg" alt="">
+          <p style="font-weight: bolder;">The Godfather</p>
+        </div>
 
 
-            </div>
-
-            </div>
-
-
-            <div class="sub-head-right">
-               
-                <div id="card-right-1">
-                    <img src="./images/godfather.jpg" alt="">
-                    <p style="font-weight: bolder;">The Godfather</p>
-                </div>
-
-
-                <div id="card-right-2">
-                    <img src="./images/images.jpg" alt="">
-                    <p style="font-weight: bolder;">A Great Reckoning</p>
-
-                </div>
-
-
-            </div>
+        <div id="card-right-2">
+          <img src="./images/images.jpg" alt="">
+          <p style="font-weight: bolder;">A Great Reckoning</p>
 
         </div>
+
+
+      </div>
+
+    </div>
+
+
+  </section>
+  <div class="card-ctrl">
+    <div class="outer-cards">
+
+
+      <div class="card-cust">
+        <h1>Shop Wide Range Of Collections</h1>
+        <h3>Buy Books at 30% OFF</h3>
+        <button>Explore</button>
+      </div>
+
+
+    </div>
+  </div>
+
+  <div class="electronic-outer">
+    <section class="electronic-wrap">
+
+
+
+
+      <div id="container-electronic">
+        <ul id="ul_elec">
+
+          <li id="li_elec">
+            <div class="electronic-label">Shop<span style="color:#000000;font-weight: bolder;">Smart</span>
+            </div>
+
+            <button data-name="To Kill A Mockingbird" id="wishlist_elec"><i class="fas fa-heart"></i></button>
+
+            <div class="electronic-item"><img src="./images/to-kill-a-mocking-bird-233x300.jpg" alt="" srcset="">
+              <div class="padd-ctrl">
+
+                <h5 class="electronic-subtitle">To Kill A Mockingbird</h5>
+
+                <div style="width: 100%;" class="food-rating">
+                  <i style="color:#eebd01;" class="fa fa-star" aria-hidden="true"></i>
+                  <i style="color:#eebd01;" class="fa fa-star" aria-hidden="true"></i>
+                  <i style="color:#eebd01;" class="fa fa-star" aria-hidden="true"></i>
+                  <i style="color:#eebd01;" class="fa fa-star" aria-hidden="true"></i>
+                  <i style="color:#eebd01;" class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+
+                <div class="electronic-item-des">
+                  <p>200₹</p>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam fugit nam eum, minus quibusdam,
+                    omnis eligendi earum aperiam sapiente odio vel, praesentium tempora provident quod soluta. Earum
+                    eveniet tempore repudiandae.</p>
+                </div>
+                <button class="buy-electronic">Add To Cart<i class="fa-solid fa-bag-shopping"></i></button>
+              </div>
+
+              <div id="elec-item-hov">
+
+                <p>Title - To kill a mockingbird</p>
+                <p>Author - Harper Lee</p>
+
+              </div>
+
+            </div>
+
+
+          </li>
+
+
+
+
+
+          <li id="li_elec">
+            <div class="electronic-label">Shop<span style="color:#000000;font-weight: bolder;">Smart</span></div>
+            <button data-name="The Great Gatsby" id="wishlist_elec"><i class="fas fa-heart"></i></button>
+            <div class="electronic-item"><img src="./images/The-greatest-Gatsby-233x300.webp" alt="" srcset="">
+              <div class="padd-ctrl">
+                <h5 class="electronic-subtitle">The Great Gatsby</h5>
+
+                <div style="width: 100%;" class="food-rating">
+                  <i style="color:#eebd01;" class="fa fa-star" aria-hidden="true"></i>
+                  <i style="color:#eebd01;" class="fa fa-star" aria-hidden="true"></i>
+                  <i style="color:#eebd01;" class="fa fa-star" aria-hidden="true"></i>
+                  <i style="color:#eebd01;" class="fa fa-star-o" aria-hidden="true"></i>
+                  <i style="color:#eebd01;" class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+
+                <div class="electronic-item-des">
+                  <p>200₹</p>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam fugit nam eum, minus quibusdam,
+                    omnis eligendi earum aperiam sapiente odio vel, praesentium tempora provident quod soluta. Earum
+                    eveniet tempore repudiandae.</p>
+                </div>
+
+                <button class="buy-electronic">Add To Cart<i class="fa-solid fa-bag-shopping"></i></button>
+              </div>
+
+
+              <div id="elec-item-hov">
+
+                <p>Title - The Great Gatsby</p>
+                <p>Author - F. Scott Fitzgerald</p>
+
+              </div>
+            </div>
+          </li>
+
+
+          <li id="li_elec">
+            <div class="electronic-label">Shop<span style="color:#000000;font-weight: bolder;">Smart</span></div>
+            <button data-name="The Catcher In The Rye" id="wishlist_elec"><i class="fas fa-heart"></i></button>
+            <div class="electronic-item"><img src="./images/The-catcher-in-the-rye-233x300.jpg" alt="" srcset="">
+              <div class="padd-ctrl">
+
+                <h5 class="electronic-subtitle">The Catcher In The Rye</h5>
+
+
+                <div style="width: 100%;" class="food-rating">
+                  <i style="color:#eebd01;" class="fa fa-star" aria-hidden="true"></i>
+                  <i style="color:#eebd01;" class="fa fa-star" aria-hidden="true"></i>
+                  <i style="color:#eebd01;" class="fa fa-star" aria-hidden="true"></i>
+                  <i style="color:#eebd01;" class="fa fa-star" aria-hidden="true"></i>
+                  <i style="color:#eebd01;" class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+
+
+
+                <div class="electronic-item-des">
+                  <p>200₹</p>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam fugit nam eum, minus quibusdam,
+                    omnis eligendi earum aperiam sapiente odio vel, praesentium tempora provident quod soluta. Earum
+                    eveniet tempore repudiandae.</p>
+                </div>
+                <button class="buy-electronic">Add To Cart<i class="fa-solid fa-bag-shopping"></i></button>
+              </div>
+
+              <div id="elec-item-hov">
+
+                <p>Title - The Catcher In The Rye</p>
+                <p>Author - J. D. Salinger</p>
+
+              </div>
+
+            </div>
+
+          </li>
+
+
+          <li id="li_elec">
+            <div class="electronic-label">Shop<span style="color:#000000;font-weight: bolder;">Smart</span></div>
+            <button data-name="Adventures Of Huckleberry Finn" id="wishlist_elec"><i class="fas fa-heart"></i></button>
+
+            <div class="electronic-item"><img src="./images/Adventures-of-Huckleberry-Finn-233x300.jpg" alt=""
+                srcset="">
+              <div class="padd-ctrl">
+
+                <h5 class="electronic-subtitle">The Adventures of Huckleberry Finn</h5>
+
+
+                <div style="width: 100%;" class="food-rating">
+                  <i style="color:#eebd01;" class="fa fa-star" aria-hidden="true"></i>
+                  <i style="color:#eebd01;" class="fa fa-star" aria-hidden="true"></i>
+                  <i style="color:#eebd01;" class="fa fa-star" aria-hidden="true"></i>
+                  <i style="color:#eebd01;" class="fa fa-star" aria-hidden="true"></i>
+                  <i style="color:#eebd01;" class="fa fa-star" aria-hidden="true"></i>
+                </div>
+
+
+                <div class="electronic-item-des">
+                  <p>200₹</p>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam fugit nam eum, minus quibusdam,
+                    omnis eligendi earum aperiam sapiente odio vel, praesentium tempora provident quod soluta. Earum
+                    eveniet tempore repudiandae.</p>
+                </div>
+                <button class="buy-electronic">Add To Cart<i class="fa-solid fa-bag-shopping"></i></button>
+              </div>
+              <div id="elec-item-hov">
+
+                <p>Title - The Adventures of Huckleberry Finn</p>
+                <p>Author - Mark Twain</p>
+
+              </div>
+
+            </div>
+          </li>
+
+
+
+          <li id="li_elec">
+            <div class="electronic-label">Shop<span style="color:#000000;font-weight: bolder;">Smart</span></div>
+            <button data-name="Alice in Wonderland" id="wishlist_elec"><i class="fas fa-heart"></i></button>
+
+            <div class="electronic-item"><img src="./images/Alices-Adventures-in-Wonderland-233x300.jpg" alt=""
+                srcset="">
+              <div class="padd-ctrl">
+
+                <h5 class="electronic-subtitle">Alice in Wonderland</h5>
+
+
+                <div style="width: 100%;" class="food-rating">
+                  <i style="color:#eebd01;" class="fa fa-star" aria-hidden="true"></i>
+                  <i style="color:#eebd01;" class="fa fa-star" aria-hidden="true"></i>
+                  <i style="color:#eebd01;" class="fa fa-star-o" aria-hidden="true"></i>
+                  <i style="color:#eebd01;" class="fa fa-star-o" aria-hidden="true"></i>
+                  <i style="color:#eebd01;" class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+
+
+
+                <div class="electronic-item-des">
+                  <p>200₹</p>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam fugit nam eum, minus quibusdam,
+                    omnis eligendi earum aperiam sapiente odio vel, praesentium tempora provident quod soluta. Earum
+                    eveniet tempore repudiandae.</p>
+                </div>
+                <button class="buy-electronic">Add To Cart<i class="fa-solid fa-bag-shopping"></i></button>
+              </div>
+              <div id="elec-item-hov">
+
+                <p>Title - Alice in Wonderland</p>
+                <p>Author - Lewis Carroll</p>
+
+              </div>
+            </div>
+          </li>
+
+
+
+          <li id="li_elec">
+            <div class="electronic-label">Shop<span style="color:#000000;font-weight: bolder;">Smart</span></div>
+            <button data-name="The Invisible Man" id="wishlist_elec"><i class="fas fa-heart"></i></button>
+
+            <div class="electronic-item"><img src="./images/Slide15-233x300.webp" alt="" srcset="">
+              <div class="padd-ctrl">
+
+                <h5 class="electronic-subtitle">The Invisible Man</h5>
+
+
+
+                <div style="width: 100%;" class="food-rating">
+                  <i style="color:#eebd01;" class="fa fa-star" aria-hidden="true"></i>
+                  <i style="color:#eebd01;" class="fa fa-star" aria-hidden="true"></i>
+                  <i style="color:#eebd01;" class="fa fa-star" aria-hidden="true"></i>
+                  <i style="color:#eebd01;" class="fa fa-star" aria-hidden="true"></i>
+                  <i style="color:#eebd01;" class="fa fa-star" aria-hidden="true"></i>
+                </div>
+
+
+
+                <div class="electronic-item-des">
+                  <p>200₹</p>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam fugit nam eum, minus quibusdam,
+                    omnis eligendi earum aperiam sapiente odio vel, praesentium tempora provident quod soluta. Earum
+                    eveniet tempore repudiandae.</p>
+                </div>
+                <button class="buy-electronic">Add To Cart<i class="fa-solid fa-bag-shopping"></i></button>
+              </div>
+              <div id="elec-item-hov">
+
+                <p>Title - The Invisible Man</p>
+                <p>Author - H. G. Wells</p>
+
+              </div>
+            </div>
+          </li>
+
+
+
+          <li id="li_elec">
+            <div class="electronic-label">Shop<span style="color:#000000;font-weight: bolder;">Smart</span></div>
+            <button data-name="The Lord of the rings" id="wishlist_elec"><i class="fas fa-heart"></i></button>
+
+            <div class="electronic-item"><img src="./images/Slide18-233x300.webp" alt="" srcset="">
+              <div class="padd-ctrl">
+
+                <h5 class="electronic-subtitle">The Lord of the rings</h5>
+
+
+                <div style="width: 100%;" class="food-rating">
+                  <i style="color:#eebd01;" class="fa fa-star" aria-hidden="true"></i>
+                  <i style="color:#eebd01;" class="fa fa-star" aria-hidden="true"></i>
+                  <i style="color:#eebd01;" class="fa fa-star-o" aria-hidden="true"></i>
+                  <i style="color:#eebd01;" class="fa fa-star-o" aria-hidden="true"></i>
+                  <i style="color:#eebd01;" class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+
+
+                <div class="electronic-item-des">
+                  <p>200₹</p>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam fugit nam eum, minus quibusdam,
+                    omnis eligendi earum aperiam sapiente odio vel, praesentium tempora provident quod soluta. Earum
+                    eveniet tempore repudiandae.</p>
+                </div>
+                <button class="buy-electronic">Add To Cart<i class="fa-solid fa-bag-shopping"></i></button>
+              </div>
+              <div id="elec-item-hov">
+
+                <p>Title - The Lord of the rings</p>
+                <p>Author - J. R. R. Tolkien</p>
+
+              </div>
+            </div>
+          </li>
+
+
+          <li id="li_elec">
+            <div class="electronic-label">Shop<span style="color:#000000;font-weight: bolder;">Smart</span></div>
+
+            <button data-name="Frankenstein" id="wishlist_elec"><i class="fas fa-heart"></i></button>
+            <div class="electronic-item"><img src="./images/Slide19-233x300.webp" alt="" srcset="">
+              <div class="padd-ctrl">
+
+                <h5 class="electronic-subtitle">Frankenstein</h5>
+
+
+                <div style="width: 100%;" class="food-rating">
+                  <i style="color:#eebd01;" class="fa fa-star" aria-hidden="true"></i>
+                  <i style="color:#eebd01;" class="fa fa-star" aria-hidden="true"></i>
+                  <i style="color:#eebd01;" class="fa fa-star" aria-hidden="true"></i>
+                  <i style="color:#eebd01;" class="fa fa-star-o" aria-hidden="true"></i>
+                  <i style="color:#eebd01;" class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+
+
+                <div class="electronic-item-des">
+                  <p>200₹</p>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam fugit nam eum, minus quibusdam,
+                    omnis eligendi earum aperiam sapiente odio vel, praesentium tempora provident quod soluta. Earum
+                    eveniet tempore repudiandae.</p>
+                </div>
+                <button class="buy-electronic">Add To Cart<i class="fa-solid fa-bag-shopping"></i></button>
+              </div>
+
+              <div id="elec-item-hov">
+
+                <p>Title - Frankenstein</p>
+                <p>Author - Mary Shelley</p>
+
+              </div>
+            </div>
+          </li>
+
+
+
+          <li id="li_elec">
+            <div class="electronic-label">Shop<span style="color:#000000;font-weight: bolder;">Smart</span></div>
+            <button data-name="Things Fall Apart" id="wishlist_elec"><i class="fas fa-heart"></i></button>
+
+            <div class="electronic-item"><img src="./images/Slide20-233x300.webp" alt="" srcset="">
+              <div class="padd-ctrl">
+
+                <h5 class="electronic-subtitle">Things Fall Apart</h5>
+
+
+                <div style="width: 100%;" class="food-rating">
+                  <i style="color:#eebd01;" class="fa fa-star" aria-hidden="true"></i>
+                  <i style="color:#eebd01;" class="fa fa-star" aria-hidden="true"></i>
+                  <i style="color:#eebd01;" class="fa fa-star" aria-hidden="true"></i>
+                  <i style="color:#eebd01;" class="fa fa-star-o" aria-hidden="true"></i>
+                  <i style="color:#eebd01;" class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+
+
+                <div class="electronic-item-des">
+                  <p>200₹</p>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam fugit nam eum, minus quibusdam,
+                    omnis eligendi earum aperiam sapiente odio vel, praesentium tempora provident quod soluta. Earum
+                    eveniet tempore repudiandae.</p>
+                </div>
+
+                <button class="buy-electronic">Add To Cart<i class="fa-solid fa-bag-shopping"></i></button>
+
+              </div>
+              <div id="elec-item-hov">
+
+                <p>Title - Things Fall Apart</p>
+                <p>Author - Chinua Achebe</p>
+
+              </div>
+            </div>
+          </li>
+
+
+
+        </ul>
+        <a id="prev_elec"><i style="color: white;" class="fas fa-angle-left"></i></a>
+        <a id="next_elec"><i style="color: white;" class="fas fa-angle-right"></i></a>
+
+      </div>
+
 
 
     </section>
+  </div>
 
 
-    <div class="electronic-outer">
-        <section class="electronic-wrap">
-    
-    
-    
-    
-          <div id="container-electronic">
-            <ul id="ul_elec">
-    
-              <li id="li_elec">
-                <div class="electronic-label">Shop<span style="color:#000000;font-weight: bolder;">Smart</span>
+
+
+
+  <div class="boats-outer">
+  <div class="light-inner"></div>
+
+
+    <section class="boats-wrap">
+
+      <div id="container-books">
+        <h1 class="title_best">Best Sellers of all time</h1>
+
+        <ul id="ul_boats">
+
+          <li id="li_boats">
+            <h1 id="check">Harry Potter</h1>
+            <div class="boats-label">Shop<span style="color:#000000;font-weight: bolder;">Smart</span>
+            </div>
+
+
+
+            <div class="boats-item"><img src="./images/51jyI6lYi1L._SX342_BO1204203200_.webp" alt="" srcset="">
+              <button data-name="Harry Potter and the deathly hallows" id="wishlist_boats"><i class="fas fa-heart"></i></button>
+
+              <div class="padd-ctrl">
+
+                <h5 class="boats-subtitle">Harry Potter And The Deathly Hallows</h5>
+
+                <div style="width: 100%;" class="food-rating">
+                  <i style="color:#eebd01;" class="fa fa-star" aria-hidden="true"></i>
+                  <i style="color:#eebd01;" class="fa fa-star" aria-hidden="true"></i>
+                  <i style="color:#eebd01;" class="fa fa-star" aria-hidden="true"></i>
+                  <i style="color:#eebd01;" class="fa fa-star" aria-hidden="true"></i>
+                  <i style="color:#eebd01;" class="fa fa-star-o" aria-hidden="true"></i>
                 </div>
-    
-                <button data-name="To Kill A Mockingbird" id="wishlist_elec"><i class="fas fa-heart"></i></button>
-    
-                <div class="electronic-item"><img src="./images/to-kill-a-mocking-bird-233x300.jpg" alt="" srcset="">
-                  <div class="padd-ctrl">
-    
-                  <h5 class="electronic-subtitle">To Kill A Mockingbird</h5>
-    
-                  <div style="width: 100%;" class="food-rating">
-                    <i style="color:#eebd01;" class="fa fa-star" aria-hidden="true"></i>
-                    <i style="color:#eebd01;" class="fa fa-star" aria-hidden="true"></i>
-                    <i style="color:#eebd01;" class="fa fa-star" aria-hidden="true"></i>
-                    <i style="color:#eebd01;" class="fa fa-star" aria-hidden="true"></i>
-                    <i style="color:#eebd01;" class="fa fa-star-o" aria-hidden="true"></i>
-                  </div>
-    
-                  <div class="electronic-item-des">
-                    <p>200₹</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam fugit nam eum, minus quibusdam,
-                      omnis eligendi earum aperiam sapiente odio vel, praesentium tempora provident quod soluta. Earum
-                      eveniet tempore repudiandae.</p>
-                  </div>
-                  <button class="buy-electronic">Add To Cart<i class="fa-solid fa-bag-shopping"></i></button>
+
+                <div class="boats-item-des">
+                  <p>200₹</p>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam fugit nam eum, minus quibusdam,
+                    omnis eligendi earum aperiam sapiente odio vel, praesentium tempora provident quod soluta. Earum
+                    eveniet tempore repudiandae.</p>
+                </div>
+                <button class="buy-boats">Add To Cart<i class="fa-solid fa-bag-shopping"></i></button>
+              </div>
+
+              <div id="boats-item-hov">
+
+                <p>Title - Harry Potter And The Deathly Hallows</p>
+                <p>Author - J.K Rowling</p>
+
+              </div>
+
+            </div>
+
+
+          </li>
+
+
+
+
+
+          <li id="li_boats">
+            <h1 id="check">Catcher in the rye</h1>
+            <div class="boats-label">Shop<span style="color:#000000;font-weight: bolder;">Smart</span></div>
+            <div class="boats-item"><img src="./images/518dVCGFuhL._SY344_BO1204203200_.webp" alt="" srcset="">
+              <button data-name="The Cather In The Rye" id="wishlist_boats"><i class="fas fa-heart"></i></button>
+
+              <div class="padd-ctrl">
+                <h5 class="boats-subtitle">The Cather In The Rye</h5>
+
+                <div style="width: 100%;" class="food-rating">
+                  <i style="color:#eebd01;" class="fa fa-star" aria-hidden="true"></i>
+                  <i style="color:#eebd01;" class="fa fa-star" aria-hidden="true"></i>
+                  <i style="color:#eebd01;" class="fa fa-star" aria-hidden="true"></i>
+                  <i style="color:#eebd01;" class="fa fa-star-o" aria-hidden="true"></i>
+                  <i style="color:#eebd01;" class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+
+                <div class="boats-item-des">
+                  <p>200₹</p>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam fugit nam eum, minus quibusdam,
+                    omnis eligendi earum aperiam sapiente odio vel, praesentium tempora provident quod soluta. Earum
+                    eveniet tempore repudiandae.</p>
+                </div>
+
+                <button class="buy-boats">Add To Cart<i class="fa-solid fa-bag-shopping"></i></button>
+              </div>
+
+
+              <div id="boats-item-hov">
+
+                <p>Title - The Cather In The Rye</p>
+                <p>Author - J.D Salinger</p>
+
+              </div>
+            </div>
+          </li>
+
+
+          <li id="li_boats">
+            <h1 id="check">The Alchemist</h1>
+            <div class="boats-label">Shop<span style="color:#000000;font-weight: bolder;">Smart</span></div>
+            <div class="boats-item"><img src="./images/51kcX5PpaZL._SX329_BO1204203200_.webp" alt="" srcset="">
+              <button data-name="The Alchemist" id="wishlist_boats"><i class="fas fa-heart"></i></button>
+
+              <div class="padd-ctrl">
+
+                <h5 class="boats-subtitle">The Alchemist</h5>
+
+
+                <div style="width: 100%;" class="food-rating">
+                  <i style="color:#eebd01;" class="fa fa-star" aria-hidden="true"></i>
+                  <i style="color:#eebd01;" class="fa fa-star" aria-hidden="true"></i>
+                  <i style="color:#eebd01;" class="fa fa-star" aria-hidden="true"></i>
+                  <i style="color:#eebd01;" class="fa fa-star" aria-hidden="true"></i>
+                  <i style="color:#eebd01;" class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+
+
+
+                <div class="boats-item-des">
+                  <p>200₹</p>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam fugit nam eum, minus quibusdam,
+                    omnis eligendi earum aperiam sapiente odio vel, praesentium tempora provident quod soluta. Earum
+                    eveniet tempore repudiandae.</p>
+                </div>
+                <button class="buy-boats">Add To Cart<i class="fa-solid fa-bag-shopping"></i></button>
+              </div>
+
+              <div id="boats-item-hov">
+
+                <p>Title - The Alchemist</p>
+                <p>Author - Paulo Coelho</p>
+
+              </div>
+
+            </div>
+
+          </li>
+
+
+          <li id="li_boats">
+            <h1 id="check">Adventures Of Huckleberry Finn</h1>
+
+            <div class="boats-label">Shop<span style="color:#000000;font-weight: bolder;">Smart</span></div>
+
+            <div class="boats-item"><img src="./images/Adventures-of-Huckleberry-Finn-233x300.jpg" alt=""
+                srcset="">
+                <button data-name="Adventures Of Huckleberry Finn" id="wishlist_boats"><i class="fas fa-heart"></i></button>
+
+              <div class="padd-ctrl">
+
+                <h5 class="boats-subtitle">The Adventures of Huckleberry Finn</h5>
+
+
+                <div style="width: 100%;" class="food-rating">
+                  <i style="color:#eebd01;" class="fa fa-star" aria-hidden="true"></i>
+                  <i style="color:#eebd01;" class="fa fa-star" aria-hidden="true"></i>
+                  <i style="color:#eebd01;" class="fa fa-star" aria-hidden="true"></i>
+                  <i style="color:#eebd01;" class="fa fa-star" aria-hidden="true"></i>
+                  <i style="color:#eebd01;" class="fa fa-star" aria-hidden="true"></i>
+                </div>
+
+
+                <div class="boats-item-des">
+                  <p>200₹</p>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam fugit nam eum, minus quibusdam,
+                    omnis eligendi earum aperiam sapiente odio vel, praesentium tempora provident quod soluta. Earum
+                    eveniet tempore repudiandae.</p>
+                </div>
+                <button class="buy-boats">Add To Cart<i class="fa-solid fa-bag-shopping"></i></button>
+              </div>
+              <div id="boats-item-hov">
+
+                <p>Title - The Adventures of Huckleberry Finn</p>
+                <p>Author - Mark Twain</p>
+
+              </div>
+
+            </div>
+          </li>
+
+
+
+          <li id="li_boats">
+            <h1 id="check">Think Grow Rich</h1>
+
+            <div class="boats-label">Shop<span style="color:#000000;font-weight: bolder;">Smart</span></div>
+
+            <div class="boats-item"><img src="./images/61y04z8SKEL._SY344_BO1204203200_.webp" alt=""
+                srcset="">
+                <button data-name="Think And Grow Rich" id="wishlist_boats"><i class="fas fa-heart"></i></button>
+
+              <div class="padd-ctrl">
+
+                <h5 class="boats-subtitle">Think And Grow Rich</h5>
+
+
+                <div style="width: 100%;" class="food-rating">
+                  <i style="color:#eebd01;" class="fa fa-star" aria-hidden="true"></i>
+                  <i style="color:#eebd01;" class="fa fa-star" aria-hidden="true"></i>
+                  <i style="color:#eebd01;" class="fa fa-star-o" aria-hidden="true"></i>
+                  <i style="color:#eebd01;" class="fa fa-star-o" aria-hidden="true"></i>
+                  <i style="color:#eebd01;" class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+
+
+
+                <div class="boats-item-des">
+                  <p>200₹</p>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam fugit nam eum, minus quibusdam,
+                    omnis eligendi earum aperiam sapiente odio vel, praesentium tempora provident quod soluta. Earum
+                    eveniet tempore repudiandae.</p>
+                </div>
+                <button class="buy-boats">Add To Cart<i class="fa-solid fa-bag-shopping"></i></button>
+              </div>
+              <div id="boats-item-hov">
+
+                <p>Title - Think And Grow Rich</p>
+                <p>Author - Napoleon Hill</p>
+
+              </div>
+            </div>
+          </li>
+
+
+
+          <li id="li_boats">
+            <h1 id="check">The DaVinci Code</h1>
+
+            <div class="boats-label">Shop<span style="color:#000000;font-weight: bolder;">Smart</span></div>
+
+            <div class="boats-item"><img src="./images/41KuPr7kpZL._SY344_BO1204203200_.webp" alt="" srcset="">
+              <button data-name="The DA VINCI Code" id="wishlist_boats"><i class="fas fa-heart"></i></button>
+
+              <div class="padd-ctrl">
+
+                <h5 class="boats-subtitle">The DA VINCI Code</h5>
+
+
+
+                <div style="width: 100%;" class="food-rating">
+                  <i style="color:#eebd01;" class="fa fa-star" aria-hidden="true"></i>
+                  <i style="color:#eebd01;" class="fa fa-star" aria-hidden="true"></i>
+                  <i style="color:#eebd01;" class="fa fa-star" aria-hidden="true"></i>
+                  <i style="color:#eebd01;" class="fa fa-star" aria-hidden="true"></i>
+                  <i style="color:#eebd01;" class="fa fa-star" aria-hidden="true"></i>
+                </div>
+
+
+
+                <div class="boats-item-des">
+                  <p>200₹</p>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam fugit nam eum, minus quibusdam,
+                    omnis eligendi earum aperiam sapiente odio vel, praesentium tempora provident quod soluta. Earum
+                    eveniet tempore repudiandae.</p>
+                </div>
+                <button class="buy-boats">Add To Cart<i class="fa-solid fa-bag-shopping"></i></button>
+              </div>
+              <div id="boats-item-hov">
+
+                <p>Title - The DA VINCI Code</p>
+                <p>Author - Dan Brown</p>
+
+              </div>
+            </div>
+          </li>
+
+
+
+          <li id="li_boats">
+            <h1 id="check">She: A History Of Adventures</h1>
+
+            <div class="boats-label">Shop<span style="color:#000000;font-weight: bolder;">Smart</span></div>
+
+            <div class="boats-item"><img src="./images/51zfUh1ontL._SY344_BO1204203200_.webp" alt="" srcset="">
+              <button data-name="She: A History Of Adventures" id="wishlist_boats"><i class="fas fa-heart"></i></button>
+
+              <div class="padd-ctrl">
+
+                <h5 class="boats-subtitle">She: A History Of Adventures</h5>
+
+
+                <div style="width: 100%;" class="food-rating">
+                  <i style="color:#eebd01;" class="fa fa-star" aria-hidden="true"></i>
+                  <i style="color:#eebd01;" class="fa fa-star" aria-hidden="true"></i>
+                  <i style="color:#eebd01;" class="fa fa-star-o" aria-hidden="true"></i>
+                  <i style="color:#eebd01;" class="fa fa-star-o" aria-hidden="true"></i>
+                  <i style="color:#eebd01;" class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+
+
+                <div class="boats-item-des">
+                  <p>200₹</p>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam fugit nam eum, minus quibusdam,
+                    omnis eligendi earum aperiam sapiente odio vel, praesentium tempora provident quod soluta. Earum
+                    eveniet tempore repudiandae.</p>
+                </div>
+                <button class="buy-boats">Add To Cart<i class="fa-solid fa-bag-shopping"></i></button>
+              </div>
+              <div id="boats-item-hov">
+
+                <p>Title - She: A History Of Adventures</p>
+                <p>Author - H.R Haggard</p>
+
+              </div>
+            </div>
+          </li>
+
+
+          <li id="li_boats">
+            <h1 id="check">The Lion Witch And Wardrobe</h1>
+
+            <div class="boats-label">Shop<span style="color:#000000;font-weight: bolder;">Smart</span></div>
+
+            <div class="boats-item"><img src="./images/51erHMLhIzL._SY344_BO1204203200_.webp" alt="" srcset="">
+              <button data-name="The Lion Witch And Wardrobe" id="wishlist_boats"><i class="fas fa-heart"></i></button>
+
+              <div class="padd-ctrl">
+
+                <h5 class="boats-subtitle">The Lion Witch And Wardrobe</h5>
+
+
+                <div style="width: 100%;" class="food-rating">
+                  <i style="color:#eebd01;" class="fa fa-star" aria-hidden="true"></i>
+                  <i style="color:#eebd01;" class="fa fa-star" aria-hidden="true"></i>
+                  <i style="color:#eebd01;" class="fa fa-star" aria-hidden="true"></i>
+                  <i style="color:#eebd01;" class="fa fa-star-o" aria-hidden="true"></i>
+                  <i style="color:#eebd01;" class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+
+
+                <div class="boats-item-des">
+                  <p>200₹</p>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam fugit nam eum, minus quibusdam,
+                    omnis eligendi earum aperiam sapiente odio vel, praesentium tempora provident quod soluta. Earum
+                    eveniet tempore repudiandae.</p>
+                </div>
+                <button class="buy-boats">Add To Cart<i class="fa-solid fa-bag-shopping"></i></button>
+              </div>
+
+              <div id="boats-item-hov">
+
+                <p>Title - The Lion Witch And Wardrobe</p>
+                <p>Author - CS Lewis</p>
+
+              </div>
+            </div>
+          </li>
+
+
+
+          <li id="li_boats">
+            <h1 id="check">The Hobbit</h1>
+
+            <div class="boats-label">Shop<span style="color:#000000;font-weight: bolder;">Smart</span></div>
+
+            <div class="boats-item"><img src="./images/51uLvJlKpNL._SY344_BO1204203200_.webp" alt="" srcset="">
+              <button data-name="The Hobbit" id="wishlist_boats"><i class="fas fa-heart"></i></button>
+
+              <div class="padd-ctrl">
+
+                <h5 class="boats-subtitle">The Hobbit</h5>
+
+
+                <div style="width: 100%;" class="food-rating">
+                  <i style="color:#eebd01;" class="fa fa-star" aria-hidden="true"></i>
+                  <i style="color:#eebd01;" class="fa fa-star" aria-hidden="true"></i>
+                  <i style="color:#eebd01;" class="fa fa-star" aria-hidden="true"></i>
+                  <i style="color:#eebd01;" class="fa fa-star-o" aria-hidden="true"></i>
+                  <i style="color:#eebd01;" class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+
+
+                <div class="boats-item-des">
+                  <p>200₹</p>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam fugit nam eum, minus quibusdam,
+                    omnis eligendi earum aperiam sapiente odio vel, praesentium tempora provident quod soluta. Earum
+                    eveniet tempore repudiandae.</p>
+                </div>
+
+                <button class="buy-boats">Add To Cart<i class="fa-solid fa-bag-shopping"></i></button>
+
+              </div>
+              <div id="boats-item-hov">
+
+                <p>Title - The Hobbit</p>
+                <p>Author - J.R.R Tolkien</p>
+
+              </div>
+            </div>
+          </li>
+
+
+
+        </ul>
+        <a id="prev_books"><i style="color: white;" class="fas fa-angle-left"></i></a>
+        <a id="next_books"><i style="color: white;" class="fas fa-angle-right"></i></a>
+
+      </div>
+
+
+
+    </section>
+  </div>
+
+
+
+  <div class="outer-author">
+
+    <div class="wrap-author">
+
+      <h1>Top Authors</h1>
+
+
+      <div class="author-grid">
+
+        <div class="author-item">
+          <img src="./images/img1.jpg" alt="" srcset="">
+          <h3>J.K Rowling</h3>
+        </div>
+
+        <div class="author-item">
+
+          <img src="./images/img2.jpg" alt="" srcset="">
+          <h3>Stephen King</h3>
+
+        </div>
+
+
+        <div class="author-item">
+          <img src="./images/img3.jpg" alt="" srcset="">
+          <h3>David Williams</h3>
+
+        </div>
+
+
+        <div class="author-item">
+          <img src="./images/img7.jpg" alt="" srcset="">
+          <h3>J.Joe Wicks</h3>
+        </div>
+
+
+        <div class="author-item">
+          <img src="./images/img8.jpg" alt="" srcset="">
+          <h3>Barbara O'Neil</h3>
+        </div>
+
+      </div>
+
     </div>
-    
-                  <div id="elec-item-hov">
-    
-                    <p>Title - To kill a mockingbird</p>
-                    <p>Author - Harper Lee</p>
-    
-                  </div>
-    
-                </div>
-    
-    
-              </li>
-    
-    
-    
-    
-    
-              <li id="li_elec">
-                <div class="electronic-label">Shop<span style="color:#000000;font-weight: bolder;">Smart</span></div>
-                <button data-name="The Great Gatsby" id="wishlist_elec"><i class="fas fa-heart"></i></button>
-                <div class="electronic-item"><img src="./images/The-greatest-Gatsby-233x300.webp" alt="" srcset="">
-                <div class="padd-ctrl">
-                  <h5 class="electronic-subtitle">The Great Gatsby</h5>
-    
-                  <div style="width: 100%;" class="food-rating">
-                    <i style="color:#eebd01;" class="fa fa-star" aria-hidden="true"></i>
-                    <i style="color:#eebd01;" class="fa fa-star" aria-hidden="true"></i>
-                    <i style="color:#eebd01;" class="fa fa-star" aria-hidden="true"></i>
-                    <i style="color:#eebd01;" class="fa fa-star-o" aria-hidden="true"></i>
-                    <i style="color:#eebd01;" class="fa fa-star-o" aria-hidden="true"></i>
-                  </div>
-    
-                  <div class="electronic-item-des">
-                    <p>200₹</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam fugit nam eum, minus quibusdam,
-                      omnis eligendi earum aperiam sapiente odio vel, praesentium tempora provident quod soluta. Earum
-                      eveniet tempore repudiandae.</p>
-                  </div>
-    
-                  <button class="buy-electronic">Add To Cart<i class="fa-solid fa-bag-shopping"></i></button>
-                </div>
-    
-    
-                  <div id="elec-item-hov">
-    
-                    <p>Title - The Great Gatsby</p>
-                    <p>Author - F. Scott Fitzgerald</p>
-    
-                  </div>
-                </div>
-              </li>
-    
-    
-              <li id="li_elec">
-                <div class="electronic-label">Shop<span style="color:#000000;font-weight: bolder;">Smart</span></div>
-                <button data-name="The Catcher In The Rye" id="wishlist_elec"><i class="fas fa-heart"></i></button>
-                <div class="electronic-item"><img src="./images/The-catcher-in-the-rye-233x300.jpg" alt="" srcset="">
-                  <div class="padd-ctrl">
-    
-                  <h5 class="electronic-subtitle">The Catcher In The Rye</h5>
-    
-    
-                  <div style="width: 100%;" class="food-rating">
-                    <i style="color:#eebd01;" class="fa fa-star" aria-hidden="true"></i>
-                    <i style="color:#eebd01;" class="fa fa-star" aria-hidden="true"></i>
-                    <i style="color:#eebd01;" class="fa fa-star" aria-hidden="true"></i>
-                    <i style="color:#eebd01;" class="fa fa-star" aria-hidden="true"></i>
-                    <i style="color:#eebd01;" class="fa fa-star-o" aria-hidden="true"></i>
-                  </div>
-    
-    
-    
-                  <div class="electronic-item-des">
-                    <p>200₹</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam fugit nam eum, minus quibusdam,
-                      omnis eligendi earum aperiam sapiente odio vel, praesentium tempora provident quod soluta. Earum
-                      eveniet tempore repudiandae.</p>
-                  </div>
-                  <button class="buy-electronic">Add To Cart<i class="fa-solid fa-bag-shopping"></i></button>
-                  </div>
-    
-                  <div id="elec-item-hov">
-    
-                    <p>Title - The Catcher In The Rye</p>
-                    <p>Author - J. D. Salinger</p>
-    
-                  </div>
-    
-                </div>
-    
-              </li>
-    
-    
-              <li id="li_elec">
-                <div class="electronic-label">Shop<span style="color:#000000;font-weight: bolder;">Smart</span></div>
-                <button data-name="Adventures Of Huckleberry Finn" id="wishlist_elec"><i class="fas fa-heart"></i></button>
-    
-                <div class="electronic-item"><img src="./images/Adventures-of-Huckleberry-Finn-233x300.jpg" alt=""
-                    srcset="">
-                    <div class="padd-ctrl">
-    
-                  <h5 class="electronic-subtitle">The Adventures of Huckleberry Finn</h5>
-    
-    
-                  <div style="width: 100%;" class="food-rating">
-                    <i style="color:#eebd01;" class="fa fa-star" aria-hidden="true"></i>
-                    <i style="color:#eebd01;" class="fa fa-star" aria-hidden="true"></i>
-                    <i style="color:#eebd01;" class="fa fa-star" aria-hidden="true"></i>
-                    <i style="color:#eebd01;" class="fa fa-star" aria-hidden="true"></i>
-                    <i style="color:#eebd01;" class="fa fa-star" aria-hidden="true"></i>
-                  </div>
-    
-    
-                  <div class="electronic-item-des">
-                    <p>200₹</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam fugit nam eum, minus quibusdam,
-                      omnis eligendi earum aperiam sapiente odio vel, praesentium tempora provident quod soluta. Earum
-                      eveniet tempore repudiandae.</p>
-                  </div>
-                  <button class="buy-electronic">Add To Cart<i class="fa-solid fa-bag-shopping"></i></button>
-                  </div>
-                  <div id="elec-item-hov">
-    
-                    <p>Title - The Adventures of Huckleberry Finn</p>
-                    <p>Author - Mark Twain</p>
-    
-                  </div>
-    
-                </div>
-              </li>
-    
-    
-    
-              <li id="li_elec">
-                <div class="electronic-label">Shop<span style="color:#000000;font-weight: bolder;">Smart</span></div>
-                <button data-name="Alice in Wonderland" id="wishlist_elec"><i class="fas fa-heart"></i></button>
-    
-                <div class="electronic-item"><img src="./images/Alices-Adventures-in-Wonderland-233x300.jpg" alt=""
-                    srcset="">
-                    <div class="padd-ctrl">
-    
-                  <h5 class="electronic-subtitle">Alice in Wonderland</h5>
-    
-    
-                  <div style="width: 100%;" class="food-rating">
-                    <i style="color:#eebd01;" class="fa fa-star" aria-hidden="true"></i>
-                    <i style="color:#eebd01;" class="fa fa-star" aria-hidden="true"></i>
-                    <i style="color:#eebd01;" class="fa fa-star-o" aria-hidden="true"></i>
-                    <i style="color:#eebd01;" class="fa fa-star-o" aria-hidden="true"></i>
-                    <i style="color:#eebd01;" class="fa fa-star-o" aria-hidden="true"></i>
-                  </div>
-    
-    
-    
-                  <div class="electronic-item-des">
-                    <p>200₹</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam fugit nam eum, minus quibusdam,
-                      omnis eligendi earum aperiam sapiente odio vel, praesentium tempora provident quod soluta. Earum
-                      eveniet tempore repudiandae.</p>
-                  </div>
-                  <button class="buy-electronic">Add To Cart<i class="fa-solid fa-bag-shopping"></i></button>
-                  </div>
-                  <div id="elec-item-hov">
-    
-                    <p>Title - Alice in Wonderland</p>
-                    <p>Author - Lewis Carroll</p>
-    
-                  </div>
-                </div>
-              </li>
-    
-    
-    
-              <li id="li_elec">
-                <div class="electronic-label">Shop<span style="color:#000000;font-weight: bolder;">Smart</span></div>
-                <button data-name="The Invisible Man" id="wishlist_elec"><i class="fas fa-heart"></i></button>
-    
-                <div class="electronic-item"><img src="./images/Slide15-233x300.webp" alt="" srcset="">
-                  <div class="padd-ctrl">
-    
-                  <h5 class="electronic-subtitle">The Invisible Man</h5>
-    
-    
-    
-                  <div style="width: 100%;" class="food-rating">
-                    <i style="color:#eebd01;" class="fa fa-star" aria-hidden="true"></i>
-                    <i style="color:#eebd01;" class="fa fa-star" aria-hidden="true"></i>
-                    <i style="color:#eebd01;" class="fa fa-star" aria-hidden="true"></i>
-                    <i style="color:#eebd01;" class="fa fa-star" aria-hidden="true"></i>
-                    <i style="color:#eebd01;" class="fa fa-star" aria-hidden="true"></i>
-                  </div>
-    
-    
-    
-                  <div class="electronic-item-des">
-                    <p>200₹</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam fugit nam eum, minus quibusdam,
-                      omnis eligendi earum aperiam sapiente odio vel, praesentium tempora provident quod soluta. Earum
-                      eveniet tempore repudiandae.</p>
-                  </div>
-                  <button class="buy-electronic">Add To Cart<i class="fa-solid fa-bag-shopping"></i></button>
-                  </div>
-                  <div id="elec-item-hov">
-    
-                    <p>Title - The Invisible Man</p>
-                    <p>Author - H. G. Wells</p>
-    
-                  </div>
-                </div>
-              </li>
-    
-    
-    
-              <li id="li_elec">
-                <div class="electronic-label">Shop<span style="color:#000000;font-weight: bolder;">Smart</span></div>
-                <button data-name="The Lord of the rings" id="wishlist_elec"><i class="fas fa-heart"></i></button>
-    
-                <div class="electronic-item"><img src="./images/Slide18-233x300.webp" alt="" srcset="">
-                  <div class="padd-ctrl">
-    
-                  <h5 class="electronic-subtitle">The Lord of the rings</h5>
-    
-    
-                  <div style="width: 100%;" class="food-rating">
-                    <i style="color:#eebd01;" class="fa fa-star" aria-hidden="true"></i>
-                    <i style="color:#eebd01;" class="fa fa-star" aria-hidden="true"></i>
-                    <i style="color:#eebd01;" class="fa fa-star-o" aria-hidden="true"></i>
-                    <i style="color:#eebd01;" class="fa fa-star-o" aria-hidden="true"></i>
-                    <i style="color:#eebd01;" class="fa fa-star-o" aria-hidden="true"></i>
-                  </div>
-    
-    
-                  <div class="electronic-item-des">
-                    <p>200₹</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam fugit nam eum, minus quibusdam,
-                      omnis eligendi earum aperiam sapiente odio vel, praesentium tempora provident quod soluta. Earum
-                      eveniet tempore repudiandae.</p>
-                  </div>
-                  <button class="buy-electronic">Add To Cart<i class="fa-solid fa-bag-shopping"></i></button>
-                  </div>
-                  <div id="elec-item-hov">
-    
-                    <p>Title - The Lord of the rings</p>
-                    <p>Author - J. R. R. Tolkien</p>
-    
-                  </div>
-                </div>
-              </li>
-    
-    
-              <li id="li_elec">
-                <div class="electronic-label">Shop<span style="color:#000000;font-weight: bolder;">Smart</span></div>
-    
-                <button data-name="Frankenstein" id="wishlist_elec"><i class="fas fa-heart"></i></button>
-                <div class="electronic-item"><img src="./images/Slide19-233x300.webp" alt="" srcset="">
-                  <div class="padd-ctrl">
-    
-                  <h5 class="electronic-subtitle">Frankenstein</h5>
-    
-    
-                  <div style="width: 100%;" class="food-rating">
-                    <i style="color:#eebd01;" class="fa fa-star" aria-hidden="true"></i>
-                    <i style="color:#eebd01;" class="fa fa-star" aria-hidden="true"></i>
-                    <i style="color:#eebd01;" class="fa fa-star" aria-hidden="true"></i>
-                    <i style="color:#eebd01;" class="fa fa-star-o" aria-hidden="true"></i>
-                    <i style="color:#eebd01;" class="fa fa-star-o" aria-hidden="true"></i>
-                  </div>
-    
-    
-                  <div class="electronic-item-des">
-                    <p>200₹</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam fugit nam eum, minus quibusdam,
-                      omnis eligendi earum aperiam sapiente odio vel, praesentium tempora provident quod soluta. Earum
-                      eveniet tempore repudiandae.</p>
-                  </div>
-                  <button class="buy-electronic">Add To Cart<i class="fa-solid fa-bag-shopping"></i></button>
-                  </div>
-    
-                  <div id="elec-item-hov">
-    
-                    <p>Title - Frankenstein</p>
-                    <p>Author - Mary Shelley</p>
-    
-                  </div>
-                </div>
-              </li>
-    
-    
-    
-              <li id="li_elec">
-                <div class="electronic-label">Shop<span style="color:#000000;font-weight: bolder;">Smart</span></div>
-                <button data-name="Things Fall Apart" id="wishlist_elec"><i class="fas fa-heart"></i></button>
-    
-                <div class="electronic-item"><img src="./images/Slide20-233x300.webp" alt="" srcset="">
-                  <div class="padd-ctrl">
-    
-                  <h5 class="electronic-subtitle">Things Fall Apart</h5>
-    
-    
-                  <div style="width: 100%;" class="food-rating">
-                    <i style="color:#eebd01;" class="fa fa-star" aria-hidden="true"></i>
-                    <i style="color:#eebd01;" class="fa fa-star" aria-hidden="true"></i>
-                    <i style="color:#eebd01;" class="fa fa-star" aria-hidden="true"></i>
-                    <i style="color:#eebd01;" class="fa fa-star-o" aria-hidden="true"></i>
-                    <i style="color:#eebd01;" class="fa fa-star-o" aria-hidden="true"></i>
-                  </div>
-    
-    
-                  <div class="electronic-item-des">
-                    <p>200₹</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam fugit nam eum, minus quibusdam,
-                      omnis eligendi earum aperiam sapiente odio vel, praesentium tempora provident quod soluta. Earum
-                      eveniet tempore repudiandae.</p>
-                  </div>
-    
-                  <button class="buy-electronic">Add To Cart<i class="fa-solid fa-bag-shopping"></i></button>
-    
-                  </div>
-                  <div id="elec-item-hov">
-    
-                    <p>Title - Things Fall Apart</p>
-                    <p>Author - Chinua Achebe</p>
-    
-                  </div>
-                </div>
-              </li>
-    
-    
-    
-            </ul>
-            <a id="prev_elec"><i style="color: white;" class="fas fa-angle-left"></i></a>
-            <a id="next_elec"><i style="color: white;" class="fas fa-angle-right"></i></a>
-    
-          </div>
-    
-    
-    
-        </section>
+  </div>
+
+  <footer>
+
+
+    <div class="footer-grid">
+      <div class="footer-grid-item">
+
+        <div class="footer-grid-first">
+
+          <ul class="footer-ul">
+
+            <li class="footer-li"><a href="#">Shop<span style="color:#ff7200;font-weight: bolder;">Smart</span><i
+                  style="margin-left:1rem;color:#ffffff;" class=" fa-solid fa-cart-shopping"></i></a></li>
+            <li class="footer-child">E commerce site</li>
+
+
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="footer-grid-item">
+
+        <ul class="footer-ul">
+
+          <li class="footer-li">Me<span style="color:#ff7200;">nu</span></li>
+          <li class="footer-child"><a href="#container">Groceries</a></li>
+          <li class="footer-child"><a href="#container-electronic">Electronics</a></li>
+          <li class="footer-child"><a href="#container-clothing">Personal</a></li>
+          <li class="footer-child"><a href="#container-household">Household</a></li>
+
+        </ul>
+
+
       </div>
 
 
+      <div class="footer-grid-item">
 
-    <div class="card-ctrl">
-        <div class="outer-cards">
-    
-    
-          <div class="card-cust">
-            <h1>Shop Wide Range Of Collections</h1>
-            <h3>Buy Books at 30% OFF</h3>
-            <button>Explore</button>
-          </div>
-    
-    
+        <div class="footer-grid-first">
+
+
+          <ul class="footer-ul">
+
+            <li class="footer-li"><a href="">Contact <span style="color:#ff7200;">US</span></a></li>
+            <li class="footer-child"><a href="">India , Mohali , Punjab 140307</a></li>
+
+
+          </ul>
+
         </div>
       </div>
 
-      <div class="outer-author">
+    </div>
 
-        <div class="wrap-author">
-    
-          <h1>Top Authors</h1>
-    
-    
-          <div class="author-grid">
-    
-            <div class="author-item">
-              <img src="./images/img1.jpg" alt="" srcset="">
-              <h3>J.K Rowling</h3>
-            </div>
-    
-            <div class="author-item">
-    
-              <img src="./images/img2.jpg" alt="" srcset="">
-              <h3>Stephen King</h3>
-    
-            </div>
-    
-    
-            <div class="author-item">
-              <img src="./images/img3.jpg" alt="" srcset="">
-              <h3>David Williams</h3>
-    
-            </div>
-    
-    
-            <div class="author-item">
-              <img src="./images/img7.jpg" alt="" srcset="">
-              <h3>J.Joe Wicks</h3>
-            </div>
-    
-    
-            <div class="author-item">
-              <img src="./images/img8.jpg" alt="" srcset="">
-              <h3>Barbara O'Neil</h3>
-            </div>
-    
-          </div>
-    
-        </div>
+    <div class="footer-container">
+
+
+
+
+
+
+      <div class="footer-social">
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
       </div>
+      <div class="footer-copy">
+        &copy; 2023 Developed By Ritik Sharma. All Rights Reserved.
+      </div>
+    </div>
+    </div>
+  </footer>
 
-
-
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.6/dist/umd/popper.min.js"
-        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
-        crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.6/dist/umd/popper.min.js"
+    integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+    crossorigin="anonymous"></script>
+  <script src="./app_books.js"></script>
 </body>
 
 </html>
