@@ -11,6 +11,13 @@ body {
 
 }
 
+#container {
+    width: 100%;
+    max-width: 1800px;
+    overflow-x: auto;
+    margin: 0 auto;
+}
+
 .custom-toggler {
 
     background-color: rgb(69, 69, 147);
@@ -127,7 +134,9 @@ body {
     overflow: hidden;
     min-height: 100%;
     padding: 10px;
-    background-image: linear-gradient(25deg, #0094e9 50%, #80D0C7 100%);
+    /* background-image: linear-gradient(25deg, #0094e9 50%, #80D0C7 100%); */
+    background: -webkit-linear-gradient(90deg, rgb(203, 100, 255) 0%, hsla(193, 90%, 55%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#B429F9", endColorstr="#26C5F3", GradientType=1); 
 
 }
 
@@ -191,6 +200,7 @@ body {
 
 .sub-head {
     height: 100%;
+    gap: 10px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -225,7 +235,7 @@ body {
 
 .sub-head-box-2 {
     height: 100%;
-    background-color: aliceblue;
+    background-color: rgb(255, 255, 255);
     border-radius: 12px;
     color: black;
     padding: 10px;
@@ -324,13 +334,14 @@ body {
     filter: none;
     padding: 20px;
     row-gap: 20px;
+    color: black;
     /* background-color: #ffffffc9; */
-    background-color: #21D4FD;
-    background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+    background-color: #ffffffc6;
     position: relative;
     border-bottom: 8px solid rgb(0, 0, 0);
     height: 50%;
     z-index: 5;
+    font-family: pacifico;
     cursor: pointer;
 
 }
@@ -371,7 +382,7 @@ body {
 .card-cust h3,
 h1 {
     font-weight: bolder;
-    color: #ffffff;
+    color: #3e3e3e;
     transition: 0.6s ease-in-out;
 
 }
@@ -514,11 +525,7 @@ footer {
 
 .boats-outer {
     padding: 20px 20px 20px 20px;
-    background: hsla(280, 95%, 57%, 1);
-    background: linear-gradient(90deg, hsla(280, 95%, 57%, 1) 0%, hsla(193, 90%, 55%, 1) 100%);
-    background: -moz-linear-gradient(90deg, hsla(280, 95%, 57%, 1) 0%, hsla(193, 90%, 55%, 1) 100%);
-    background: -webkit-linear-gradient(90deg, hsla(280, 95%, 57%, 1) 0%, hsla(193, 90%, 55%, 1) 100%);
-    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#B429F9", endColorstr="#26C5F3", GradientType=1);
+
     position: relative;
 }
 
@@ -530,7 +537,7 @@ footer {
     position: absolute;
     right: 2%;
     filter: drop-shadow(0px 30px 15px rgb(255, 208, 0));
-    top: 0%;
+    top: 3%;
     z-index: 6;
     background-image: url(/images/clipart3173201.png);
 }
@@ -581,7 +588,8 @@ footer {
     position: relative;
     cursor: pointer;
 }
-#check{
+
+#check {
     position: absolute;
     right: 0;
     writing-mode: vertical-rl;
@@ -592,7 +600,8 @@ footer {
     display: flex;
     justify-content: center;
     opacity: 0.4;
-    }
+    color: rgba(255, 255, 255, 0.809);
+}
 
 .boats-label {
     position: absolute;
@@ -776,6 +785,7 @@ footer {
 
     .author-item h3 {
         font-size: 10px;
+        font-family: poppins;
     }
 
     .author-item img {
@@ -792,7 +802,7 @@ footer {
     .card-cust h1,
     h3 {
         font-size: 15px;
-        font-family: poppins;
+        font-family: pacifico;
     }
 
     .wrap-author h1 {
@@ -801,21 +811,26 @@ footer {
 }
 
 
-.title_best{
+.title_best {
     color: #ffffff;
     font-family: pacifico;
     text-align: center;
     font-weight: 300;
 }
 
+.title_trending {
+    text-align: center;
+    font-family: pacifico;
+    color: white;
+    font-weight: lighter;
+    margin-bottom: 30px;
+}
 
 #container-electronic {
     width: 100%;
     height: auto;
-    padding: 1rem;
+    padding: 2rem;
     position: relative;
-    background-color: aliceblue;
-    border-radius: 20px;
     overflow: hidden;
 }
 
@@ -824,17 +839,17 @@ footer {
     height: auto;
     padding: 1rem;
     position: relative;
-    background-color: aliceblue;
+    background-color: #28c4f38f;
     /* background-image: url(/images/minion.png);
     background-attachment: fixed;
     background-size: 20%;
     background-repeat: no-repeat; */
     border-radius: 20px;
-    background: hsla(280, 95%, 57%, 1);
+    /* background: hsla(280, 95%, 57%, 1);
     background: linear-gradient(90deg, hsla(280, 95%, 57%, 1) 0%, hsla(193, 90%, 55%, 1) 100%);
     background: -moz-linear-gradient(90deg, hsla(280, 95%, 57%, 1) 0%, hsla(193, 90%, 55%, 1) 100%);
-    background: -webkit-linear-gradient(90deg, hsla(280, 95%, 57%, 1) 0%, hsla(193, 90%, 55%, 1) 100%);
-    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#B429F9", endColorstr="#26C5F3", GradientType=1);
+    background: -webkit-linear-gradient(90deg, rgb(203, 100, 255) 0%, hsla(193, 90%, 55%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#B429F9", endColorstr="#26C5F3", GradientType=1); */
     overflow: hidden;
 }
 
@@ -877,9 +892,17 @@ footer {
     /* clip-path: circle(69% at 41% 27%); */
 
 }
-
-
-
+.gra-col{
+    background: -webkit-linear-gradient(91deg, hsla(280, 95%, 57%, 1) 0%, hsla(193, 90%, 55%, 1) 100%);
+height: 100%;
+width: 100%;
+}
+.electronic-outer {
+    padding-bottom: 20px;
+}
+.electronic-wrap{
+    padding: 20px;
+}
 .electronic-label {
     position: absolute;
     top: 1rem;
@@ -922,7 +945,6 @@ footer {
     justify-content: space-between;
     padding-bottom: 1rem;
     flex-direction: column;
-    box-shadow: 1px 1px 10px 0px rgb(190, 190, 190);
     align-items: center;
     transition: 0.5s ease-in-out;
     margin-right: 2rem;
@@ -1020,8 +1042,10 @@ footer {
 
 }
 
-#prev_elec,#prev_books,
-#next_elec,#next_books {
+#prev_elec,
+#prev_books,
+#next_elec,
+#next_books {
     position: absolute;
     top: 50%;
     color: #ffffff;
@@ -1043,12 +1067,14 @@ footer {
     color: white;
 }
 
-#prev_elec , #prev_books{
+#prev_elec,
+#prev_books {
     left: 0;
     z-index: 99;
 }
 
-#next_elec , #next_books{
+#next_elec,
+#next_books {
     right: 0;
     z-index: 99;
 }
@@ -1144,6 +1170,7 @@ footer {
 
     .author-item h3 {
         font-size: 16px;
+        font-family: poppins;
     }
 
     .author-item img {
@@ -1159,7 +1186,6 @@ footer {
 
     .card-cust h1 {
         font-size: 28px;
-        font-family: poppins;
     }
 
     .card-cust h3 {
@@ -1204,6 +1230,7 @@ footer {
 
     .author-item h3 {
         font-size: 20px;
+        font-family: poppins;
     }
 
     .sub-head-box-1 img {
@@ -1243,5 +1270,14 @@ footer {
     #li_elec img {
         height: 200px;
     }
+
+}
+
+@media (min-width:1800px) {
+
+
+#li_boats , #li_elec{
+    width: 10vw;
+}
 
 }
