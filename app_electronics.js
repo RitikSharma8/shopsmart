@@ -1,39 +1,82 @@
-function slideshow() {
-    const sliderrrr = document.querySelector('#container-pc');
-    let sliderWidthhhhh = sliderrrr.offsetWidth / 2;
-    const sliderlisttttt = document.querySelector('#ul_pc');
-    let itemsssss = sliderlisttttt.querySelectorAll('#li_pc').length -2 ;
-    let counts = 1;
+function Slider() {
+    const sliderr = document.querySelector('#container-electronic');
+    let sliderWidth = sliderr.offsetWidth / 2;
+    const sliderlist = document.querySelector('#ul_elec');
+    let itemss = sliderlist.querySelectorAll('#li_elec').length -2 ;
+    let count = 1;
     
     window.addEventListener('resize', function() {
-      sliderWidthhhhh = sliderrrr.offsetWidth;
+      sliderWidth = sliderr.offsetWidth;
     });
     
-    function abc() {
-      if(counts > 1) {
-        counts = counts - 2;
-        sliderlisttttt.style.left = '-' + counts * sliderWidthhhhh + 'px';
-        counts++;
-      }else if(counts == 1) {
-        counts = itemsssss - 1;
-        sliderlisttttt.style.left = '-' + counts * sliderWidthhhhh + 'px';
-        counts++;
+    function prev() {
+      if(count > 1) {
+        count = count - 2;
+        sliderlist.style.left = '-' + count * sliderWidth + 'px';
+        count++;
+      }else if(count == 1) {
+        count = itemss - 1;
+        sliderlist.style.left = '-' + count * sliderWidth + 'px';
+        count++;
       }
       
     }
-    function xyz() {
-      if(counts < itemsssss) {
-        sliderlisttttt.style.left = '-' + counts * sliderWidthhhhh + 'px';
-        counts++;
+    function next() {
+      if(count < itemss) {
+        sliderlist.style.left = '-' + count * sliderWidth + 'px';
+        count++;
         
-      }else if(counts == itemsssss) {
-        sliderlisttttt.style.left = '0px';
-        counts = 1;
+      }else if(count == itemss) {
+        sliderlist.style.left = '0px';
+        count = 1;
         
       }
     }
-    prev_pc.addEventListener('click', abc);
-    next_pc.addEventListener('click', xyz);
+    prev_elec.addEventListener('click', prev);
+    next_elec.addEventListener('click', next);
     
-  }slideshow();
+  }
+  
+  Slider();
 
+
+
+  function Sliderpc() {
+    const sliderrr = document.querySelector('#container-books');
+    let sliderWidthpc = sliderrr.offsetWidth / 2;
+    const sliderlistpc = document.querySelector('#ul_boats');
+    let itemspc = sliderlistpc.querySelectorAll('#li_boats').length; // update to include all div items
+    let countpc = 1;
+  
+    window.addEventListener('resize', function() {
+      sliderWidthpc = sliderrr.offsetWidth;
+    });
+  
+    function prev_pcslide() {
+      if (countpc > 1) {
+        countpc = countpc - 2;
+        sliderlistpc.style.left = '-' + countpc * sliderWidthpc + 'px';
+        countpc++;
+      } else if (countpc == 1) {
+        countpc = itemspc - 1;
+        sliderlistpc.style.left = '-' + countpc * sliderWidthpc + 'px';
+        countpc++;
+      }
+    }
+    function next_pcslide() {
+      if (countpc <= itemspc) { // update condition to include last div item
+        sliderlistpc.style.left = '-' + countpc * sliderWidthpc + 'px';
+        countpc++;
+  
+      } else if (countpc == itemspc + 1) { // update to include last div item
+        sliderlistpc.style.left = '0px';
+        countpc = 1;
+  
+      }
+    }
+    prev_books.addEventListener('click', prev_pcslide);
+    next_books.addEventListener('click', next_pcslide);
+  
+  }
+  
+  Sliderpc();
